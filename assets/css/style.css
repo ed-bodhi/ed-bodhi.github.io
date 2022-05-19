@@ -772,11 +772,20 @@ footer {
 
   }
 
+  #pic #intro {
+    align-items: center;
+  }
+
   #intro p,
   #intro-contact p {
     padding: 10px;
     font-size: 18px;
-    margin: 40px;
+    margin: 10px;
+  }
+
+  #intro-contact {
+    width: 300px;
+    align-items: center;
   }
 
   #about .headings,
@@ -939,6 +948,11 @@ footer {
   #intro-contact h2 {
     text-align: center;
     padding: 10px;
+  }
+
+  #intro-contact {
+    width: 400px;
+    align-items: center;
   }
 
   #intro p,
