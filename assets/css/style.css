@@ -8,6 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.justify {
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
