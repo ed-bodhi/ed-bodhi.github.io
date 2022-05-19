@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -9,13 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.justify {
-  text-align: justify;
-}
-
-p {
-  text-align: justify;
-}
 
 /* Navbar */
 .navbar {
@@ -114,7 +106,7 @@ p {
 }
 
 #home-vision::before {
-  background: url('/assets/img/lamp-blk2.png') no-repeat center center/cover;
+  background: url('/assets/img/lamp-blk.png') no-repeat center center/cover;
 }
 
 #home-contacts::before {
@@ -726,10 +718,10 @@ footer {
    #home-contacts::before {
      height: 700px;
    }
-
+   
    #home .headings {
      font-size: 24px;
-
+     
    }
 
    #home-contacts .main {
@@ -748,7 +740,7 @@ footer {
   }
 
   .btn {
-    top: 300px;
+    top: 300px; 
     font-size: 12px;
   }
 
@@ -804,7 +796,7 @@ footer {
     padding: 0;
     padding-bottom: 30px;
   }
-
+  
   #believe #intro h2,
   #believe #intro p,
   #aspect #intro h2,
@@ -813,7 +805,7 @@ footer {
   }
 
 
-
+  
   /* Portfolio Section */
   .headings {
     text-align: center;
@@ -925,8 +917,8 @@ footer {
   .navbar ul li a {
     font-size: 20px;
    }
-
-
+  
+  
   /* Home Section */
   #home .headings {
     font-size: 28px;
@@ -940,7 +932,7 @@ footer {
   #home-contacts .main {
     top: 4%;
   }
-
+  
   #home-contacts .headings {
     font-size: 35px;
   }
@@ -948,8 +940,8 @@ footer {
   #home-vision .main {
     top: 42%;
   }
-
-
+  
+  
   /* About Section */
   #pic,
   #pic-blv,
@@ -978,7 +970,7 @@ footer {
     padding: 0;
     padding-bottom: 20px;
   }
-
+  
   #believe #intro,
   #aspect #intro,
   #aspect #intro p,
@@ -1021,7 +1013,7 @@ footer {
   #home-contacts .headings {
     font-size: 40px;
   }
-
+  
   .input {
     width: 60%;
   }
@@ -1051,4 +1043,32 @@ footer {
     padding: 50px;
   }
 
+
+  /* Footer Section */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-foot {
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .navbar-foot {
+    display: none;
+  }
+
+  .social h3 {
+    padding: 30px;
+    font-size: 20px;
+  }
+
 }
+
