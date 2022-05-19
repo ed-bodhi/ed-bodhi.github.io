@@ -833,6 +833,10 @@ footer {
     padding: 30px;
   }
 
+  .box p {
+    padding-bottom: 30px;
+  }
+
 
    /* Contact Section */
    .input {
