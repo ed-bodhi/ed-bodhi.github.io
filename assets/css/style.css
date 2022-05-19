@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -725,10 +726,10 @@ footer {
    #home-contacts::before {
      height: 700px;
    }
-   
+
    #home .headings {
      font-size: 24px;
-     
+
    }
 
    #home-contacts .main {
@@ -747,7 +748,7 @@ footer {
   }
 
   .btn {
-    top: 300px; 
+    top: 300px;
     font-size: 12px;
   }
 
@@ -803,7 +804,7 @@ footer {
     padding: 0;
     padding-bottom: 30px;
   }
-  
+
   #believe #intro h2,
   #believe #intro p,
   #aspect #intro h2,
@@ -812,7 +813,7 @@ footer {
   }
 
 
-  
+
   /* Portfolio Section */
   .headings {
     text-align: center;
@@ -924,8 +925,8 @@ footer {
   .navbar ul li a {
     font-size: 20px;
    }
-  
-  
+
+
   /* Home Section */
   #home .headings {
     font-size: 28px;
@@ -939,7 +940,7 @@ footer {
   #home-contacts .main {
     top: 4%;
   }
-  
+
   #home-contacts .headings {
     font-size: 35px;
   }
@@ -947,8 +948,8 @@ footer {
   #home-vision .main {
     top: 42%;
   }
-  
-  
+
+
   /* About Section */
   #pic,
   #pic-blv,
@@ -977,7 +978,7 @@ footer {
     padding: 0;
     padding-bottom: 20px;
   }
-  
+
   #believe #intro,
   #aspect #intro,
   #aspect #intro p,
@@ -1020,7 +1021,7 @@ footer {
   #home-contacts .headings {
     font-size: 40px;
   }
-  
+
   .input {
     width: 60%;
   }
@@ -1051,4 +1052,3 @@ footer {
   }
 
 }
-
