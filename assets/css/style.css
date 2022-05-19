@@ -343,11 +343,12 @@ span {
 }
 
 #intro-contact {
-  padding: 0;
+  padding: 15px;
 }
 
 #intro-contact p {
   text-align: center;
+  padding: 15px;
 }
 
 #intro-contact h2 {
@@ -815,6 +816,16 @@ footer {
   }
 
 
+   /* Skills Section */
+
+  .box {
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+
    /* Contact Section */
    .input {
     width: 80%;
@@ -828,33 +839,35 @@ footer {
     width: 30%;
   }
 
-}
 
 
-/* Footer Section */
-footer {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  justify-content: center;
-  align-items: center;
-}
 
-.logo-foot {
-  width: 220px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* Footer Section */
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
   }
 
-.navbar-foot {
-  display: none;
+  .logo-foot {
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .navbar-foot {
+    display: none;
+  }
+
+  .social h3 {
+    padding: 30px;
+    font-size: 20px;
+  }
 }
 
-.social h3 {
-  padding: 30px;
-  font-size: 20px;
-}
 
 
 /* Tablet Responsive Style */
