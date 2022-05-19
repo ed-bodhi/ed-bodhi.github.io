@@ -647,6 +647,14 @@ footer {
   width: 100%;
  }
 
+ .justify {
+   text-align: justify;
+ }
+
+ p {
+   text-align: justify;
+ }
+
 
   /* Navbar Section */
   .navbar {
