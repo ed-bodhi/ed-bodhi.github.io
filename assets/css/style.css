@@ -819,9 +819,13 @@ footer {
    /* Skills Section */
 
   .box {
-    height: 550px;
+    height: 600px;
     margin: 20px;
     padding: 20px;
+  }
+
+  .box p {
+    padding-bottom: 20px;
   }
 
 
